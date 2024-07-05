@@ -2,6 +2,8 @@ body {
 background:linear-gradient(hsl(270, 65%, 62%), #ff85de);
 background-repeat: no-repeat;
 background-attachment: fixed;
+margin-left: 200px;
+margin-right: 200px;
 }
 
 h1{
@@ -10,12 +12,29 @@ h1{
 }
 
 p{
-
+    text-align: justify;
+    font-size: larger;
     font-style: normal;
     font-family:"baskervville SC";
     font-weight: bold;
     
 }
+.text{
 
+   
+    font-style: normal;
+    font-family:"baskervville SC";
+    font-weight: bold;
+}
 
-
+mark{
+    
+    background-color: #ff85de;
+    color:black;
+}
+h2{
+text-align: center;
+margin:150px;
+font-style: oblique;
+font-family:"baskervville SC";
+}
